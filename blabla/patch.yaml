@@ -4,5 +4,6 @@ metadata:
     name: pod-as-user
 spec:
   containers:
+  - name: ping
     securityContext:
     runAsUser: 2000
