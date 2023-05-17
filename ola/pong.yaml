@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: pong
-    image: cgr.dev/chainguard/wolfi-base
+    image: alpine
     command:
     - sleep
     - "5000"
