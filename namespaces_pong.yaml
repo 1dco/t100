@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: pong
+  labels:
+    name: pong
+    owner: pong
