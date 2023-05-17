@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pong2
+spec:
+  containers:
+  - name: pong2
+    image: cgr.dev/chainguard/wolfi-base
+    command:
+    - sleep
+    - "5000"
+
