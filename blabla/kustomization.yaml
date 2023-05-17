@@ -3,5 +3,3 @@ kind: Kustomization
 namespace: pong
 resources:
 - pod-as-user.yaml
-patches:
-- path: patch.yaml
